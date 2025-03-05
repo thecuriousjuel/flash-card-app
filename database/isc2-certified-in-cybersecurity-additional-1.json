@@ -1,0 +1,604 @@
+{
+    "flashcards": [
+        {
+            "id": 2001,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is the CIA triad?",
+            "answer": "The CIA triad consists of Confidentiality, Integrity, and Availability. These are the three main principles of information security that help organizations protect their assets."
+        },
+        {
+            "id": 2002,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is authentication?",
+            "answer": "Authentication is the process of verifying the identity of a user, device, or system. It confirms that an entity is who or what it claims to be."
+        },
+        {
+            "id": 2003,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is authorization?",
+            "answer": "Authorization is the process of determining what actions, resources, or services a user, device, or system is allowed to access after authentication has been confirmed."
+        },
+        {
+            "id": 2004,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a security control?",
+            "answer": "A security control is a safeguard or countermeasure designed to protect the confidentiality, integrity, and availability of information systems and data."
+        },
+        {
+            "id": 2005,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is risk management?",
+            "answer": "Risk management is the continuous process of identifying, assessing, and responding to security risks through the implementation of appropriate controls and countermeasures."
+        },
+        {
+            "id": 2006,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is malware?",
+            "answer": "Malware (malicious software) is any program or file that is intentionally harmful to computer systems, networks, or users. Common types include viruses, worms, trojans, and ransomware."
+        },
+        {
+            "id": 2007,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a firewall?",
+            "answer": "A firewall is a network security device or software that monitors and controls incoming and outgoing network traffic based on predetermined security rules."
+        },
+        {
+            "id": 2008,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is encryption?",
+            "answer": "Encryption is the process of converting plaintext into ciphertext to protect data confidentiality. It uses mathematical algorithms to scramble data that can only be decrypted with the proper key."
+        },
+        {
+            "id": 2009,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a security incident?",
+            "answer": "A security incident is an event that violates security policies or threatens the confidentiality, integrity, or availability of information assets."
+        },
+        {
+            "id": 2010,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is phishing?",
+            "answer": "Phishing is a type of social engineering attack where attackers attempt to steal sensitive information by masquerading as trustworthy entities through emails or other communication channels."
+        },
+        {
+            "id": 2011,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a vulnerability?",
+            "answer": "A vulnerability is a weakness in a system that could be exploited by a threat actor to gain unauthorized access or perform unauthorized actions."
+        },
+        {
+            "id": 2012,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a threat?",
+            "answer": "A threat is any potential danger that could exploit a vulnerability to breach security and cause harm to assets."
+        },
+        {
+            "id": 2013,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is an exploit?",
+            "answer": "An exploit is a specific method or piece of code that takes advantage of a vulnerability to gain unauthorized access or control of a system."
+        },
+        {
+            "id": 2014,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is defense in depth?",
+            "answer": "Defense in depth is a security strategy that uses multiple layers of security controls to protect assets, making it harder for attackers to succeed."
+        },
+        {
+            "id": 2015,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is access control?",
+            "answer": "Access control is the practice of restricting access to resources based on authentication and authorization, ensuring only authorized entities can access specific resources."
+        },
+        {
+            "id": 2016,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is social engineering?",
+            "answer": "Social engineering is the practice of manipulating people into performing actions or divulging confidential information through psychological manipulation."
+        },
+        {
+            "id": 2017,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a security policy?",
+            "answer": "A security policy is a document that outlines the rules, guidelines, and practices that an organization follows to protect its information assets and systems."
+        },
+        {
+            "id": 2018,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is incident response?",
+            "answer": "Incident response is a structured approach to handling security incidents, breaches, and cyber threats, including preparation, detection, analysis, containment, and recovery."
+        },
+        {
+            "id": 2019,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is data classification?",
+            "answer": "Data classification is the process of organizing data into categories for effective use and protection based on its level of sensitivity and importance to the organization."
+        },
+        {
+            "id": 2020,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a security baseline?",
+            "answer": "A security baseline is a minimum set of security controls and configurations that must be implemented to protect information systems and data."
+        },
+        {
+            "id": 2021,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a security audit?",
+            "answer": "A security audit is a systematic evaluation of an organization's security controls, policies, and procedures to ensure they meet security requirements and standards."
+        },
+        {
+            "id": 2022,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is data integrity?",
+            "answer": "Data integrity refers to the accuracy, consistency, and reliability of data throughout its lifecycle, ensuring it hasn't been altered or tampered with."
+        },
+        {
+            "id": 2023,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is non-repudiation?",
+            "answer": "Non-repudiation is the assurance that someone cannot deny the validity of something, typically ensuring a party cannot deny sending a message or performing an action."
+        },
+        {
+            "id": 2024,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a security perimeter?",
+            "answer": "A security perimeter is the boundary that separates an organization's internal network and resources from external, potentially hostile networks."
+        },
+        {
+            "id": 2025,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is least privilege?",
+            "answer": "The principle of least privilege states that users and programs should only have the minimum privileges necessary to perform their tasks."
+        },
+        {
+            "id": 2026,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is asset management?",
+            "answer": "Asset management is the process of identifying, tracking, and protecting an organization's valuable assets, including hardware, software, data, and intellectual property."
+        },
+        {
+            "id": 2027,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a security zone?",
+            "answer": "A security zone is a network segment with specific security requirements and controls. Different zones may have different levels of trust and protection."
+        },
+        {
+            "id": 2028,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is network segmentation?",
+            "answer": "Network segmentation is the practice of dividing a network into smaller segments or subnets to improve security, performance, and management."
+        },
+        {
+            "id": 2029,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a honeypot?",
+            "answer": "A honeypot is a security mechanism designed to detect, deflect, or study hacking attempts by appearing to be a legitimate target for attackers."
+        },
+        {
+            "id": 2030,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security awareness training?",
+            "answer": "Security awareness training educates employees about security risks, best practices, and their role in protecting organizational assets and information."
+        },
+        {
+            "id": 2031,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is symmetric encryption?",
+            "answer": "Symmetric encryption uses the same key for both encryption and decryption of data. Common algorithms include AES, DES, and 3DES."
+        },
+        {
+            "id": 2032,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is asymmetric encryption?",
+            "answer": "Asymmetric encryption uses different keys for encryption (public key) and decryption (private key). It's commonly used in digital signatures and secure key exchange."
+        },
+        {
+            "id": 2033,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a security operations center (SOC)?",
+            "answer": "A SOC is a centralized facility where security professionals monitor, analyze, and protect an organization from cyber threats and security incidents 24/7."
+        },
+        {
+            "id": 2034,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security governance?",
+            "answer": "Security governance aligns security strategy with business objectives and ensures that security activities support organizational goals while managing risk and compliance."
+        },
+        {
+            "id": 2035,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is physical security?",
+            "answer": "Physical security involves protecting personnel, hardware, systems, and data from physical threats like theft, natural disasters, and unauthorized access to facilities."
+        },
+        {
+            "id": 2036,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a man-in-the-middle attack?",
+            "answer": "A man-in-the-middle attack occurs when an attacker intercepts communications between two parties to eavesdrop or modify the data being exchanged."
+        },
+        {
+            "id": 2037,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a security framework?",
+            "answer": "A security framework is a structured set of guidelines and practices for managing security risks and implementing controls, such as NIST CSF or ISO 27001."
+        },
+        {
+            "id": 2038,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security architecture?",
+            "answer": "Security architecture is the design and implementation of security controls and mechanisms to protect an organization's assets and information systems."
+        },
+        {
+            "id": 2039,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is zero trust?",
+            "answer": "Zero trust is a security model that requires strict verification of every person and device trying to access resources, regardless of their location or network connection."
+        },
+        {
+            "id": 2040,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is an IDS/IPS?",
+            "answer": "An Intrusion Detection System (IDS) monitors network traffic for suspicious activity, while an Intrusion Prevention System (IPS) can also take automated actions to prevent attacks."
+        },
+        {
+            "id": 2041,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is cloud security?",
+            "answer": "Cloud security refers to the policies, technologies, and controls deployed to protect data, applications, and infrastructure in cloud computing environments."
+        },
+        {
+            "id": 2042,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is identity federation?",
+            "answer": "Identity federation allows users to access multiple systems or applications using a single set of credentials, typically through standards like SAML or OAuth."
+        },
+        {
+            "id": 2043,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is business continuity planning?",
+            "answer": "Business continuity planning involves creating systems and procedures to ensure critical business functions can continue during and after a disaster or crisis."
+        },
+        {
+            "id": 2044,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is disaster recovery?",
+            "answer": "Disaster recovery is a set of policies and procedures for recovering or continuing vital technology infrastructure and systems following a natural or human-induced disaster."
+        },
+        {
+            "id": 2045,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security orchestration?",
+            "answer": "Security orchestration is the integration of security tools and processes to automate incident response and security operations tasks for faster threat detection and remediation."
+        },
+        {
+            "id": 2046,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is SIEM?",
+            "answer": "Security Information and Event Management (SIEM) is a solution that collects, analyzes, and correlates security events from multiple sources to detect and respond to security threats."
+        },
+        {
+            "id": 2047,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is data loss prevention (DLP)?",
+            "answer": "DLP is a set of tools and processes that ensure sensitive data is not lost, misused, or accessed by unauthorized users through monitoring, detecting, and blocking data in use, in motion, and at rest."
+        },
+        {
+            "id": 2048,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is regulatory compliance?",
+            "answer": "Regulatory compliance refers to following laws, regulations, and guidelines relevant to business operations, such as GDPR, HIPAA, or PCI DSS."
+        },
+        {
+            "id": 2049,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is penetration testing?",
+            "answer": "Penetration testing is a simulated cyber attack against a system to identify security vulnerabilities that could be exploited by attackers."
+        },
+        {
+            "id": 2050,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is an incident response plan?",
+            "answer": "An incident response plan is a documented set of procedures for detecting, responding to, and limiting the effects of a cybersecurity incident."
+        },
+        {
+            "id": 2051,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is application security?",
+            "answer": "Application security involves implementing security measures during application development to protect against threats and vulnerabilities that could compromise data or systems."
+        },
+        {
+            "id": 2052,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a security assessment?",
+            "answer": "A security assessment is a systematic evaluation of the security of a system or application by measuring how well it conforms to established security criteria."
+        },
+        {
+            "id": 2053,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is role-based access control (RBAC)?",
+            "answer": "RBAC is a method of regulating access to resources based on the roles of individual users within an organization, simplifying access management and improving security."
+        },
+        {
+            "id": 2054,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a VPN?",
+            "answer": "A Virtual Private Network (VPN) creates a secure, encrypted connection over a less secure network, allowing safe transmission of sensitive data between networks."
+        },
+        {
+            "id": 2055,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a digital certificate?",
+            "answer": "A digital certificate is an electronic document used to verify the identity of a person, organization, or device, and to provide secure access and communication."
+        },
+        {
+            "id": 2056,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is multi-factor authentication (MFA)?",
+            "answer": "MFA is a security system that requires multiple methods of authentication from different categories of credentials to verify the user's identity."
+        },
+        {
+            "id": 2057,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security information management (SIM)?",
+            "answer": "SIM is a software solution that collects and manages security information from various sources to help organizations monitor and analyze security events."
+        },
+        {
+            "id": 2058,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is threat modeling?",
+            "answer": "Threat modeling is a structured process of identifying potential threats and vulnerabilities in a system to determine the security measures needed."
+        },
+        {
+            "id": 2059,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a security operations center (SOC)?",
+            "answer": "A SOC is a facility where enterprise information systems are monitored, assessed, and defended against security threats and incidents."
+        },
+        {
+            "id": 2060,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is privilege escalation?",
+            "answer": "Privilege escalation occurs when a user gains access to resources that they are not authorized to access, either through vulnerabilities or design flaws."
+        },
+        {
+            "id": 2061,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is ISO 27001?",
+            "answer": "ISO 27001 is an international standard for information security management systems (ISMS), providing requirements for establishing, implementing, maintaining, and improving an organization's information security."
+        },
+        {
+            "id": 2062,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security engineering?",
+            "answer": "Security engineering is the practice of building systems to remain dependable in the face of malice, error, or mischance, incorporating security principles throughout the system development lifecycle."
+        },
+        {
+            "id": 2063,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is network access control (NAC)?",
+            "answer": "NAC is a security approach that controls access to a network based on device identity and security posture, enforcing security policies before allowing network connectivity."
+        },
+        {
+            "id": 2064,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security testing?",
+            "answer": "Security testing is the process of assessing software, systems, or networks for vulnerabilities, weaknesses, and potential security risks through various testing methodologies."
+        },
+        {
+            "id": 2065,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is access governance?",
+            "answer": "Access governance involves the policies, processes, and technologies used to manage and control access rights across an organization, ensuring appropriate access levels are maintained."
+        },
+        {
+            "id": 2066,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a security control matrix?",
+            "answer": "A security control matrix maps security controls to specific requirements, regulations, or frameworks, helping organizations track compliance and control implementation."
+        },
+        {
+            "id": 2067,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a risk assessment matrix?",
+            "answer": "A risk assessment matrix is a tool used to evaluate and prioritize risks based on their likelihood and potential impact on an organization."
+        },
+        {
+            "id": 2068,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a business impact analysis (BIA)?",
+            "answer": "A BIA evaluates the potential effects of disruption to critical business operations, helping organizations prioritize resources and recovery strategies."
+        },
+        {
+            "id": 2069,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is hash function in cryptography?",
+            "answer": "A hash function is a mathematical function that converts input data into a fixed-size string of characters, used for data integrity verification and digital signatures."
+        },
+        {
+            "id": 2070,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is the NIST Cybersecurity Framework?",
+            "answer": "The NIST Cybersecurity Framework provides guidelines for organizations to better manage and reduce cybersecurity risk, organized around five key functions: Identify, Protect, Detect, Respond, and Recover."
+        },
+        {
+            "id": 2071,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is an incident command system (ICS)?",
+            "answer": "An incident command system is a standardized approach to managing security incidents, providing a hierarchical structure for coordinating response efforts."
+        },
+        {
+            "id": 2072,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security testing methodology?",
+            "answer": "Security testing methodology is a structured approach to testing security controls, including vulnerability scanning, penetration testing, and security assessments."
+        },
+        {
+            "id": 2073,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security hardening?",
+            "answer": "Security hardening is the process of securing a system by reducing its attack surface and implementing security controls according to best practices and standards."
+        },
+        {
+            "id": 2074,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is endpoint protection?",
+            "answer": "Endpoint protection involves securing end-user devices like computers and mobile devices through antivirus, encryption, and access controls."
+        },
+        {
+            "id": 2075,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security metrics?",
+            "answer": "Security metrics are measurements used to evaluate the effectiveness of security controls, processes, and overall security posture of an organization."
+        },
+        {
+            "id": 2076,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is privileged identity management (PIM)?",
+            "answer": "PIM is the monitoring and protection of superuser or administrative privileged accounts in an organization's IT systems to prevent unauthorized access and misuse."
+        },
+        {
+            "id": 2077,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security orchestration and automation (SOAR)?",
+            "answer": "SOAR combines security orchestration, automation, and incident response to help organizations improve their security operations and incident response processes."
+        },
+        {
+            "id": 2078,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security configuration management?",
+            "answer": "Security configuration management involves establishing and maintaining consistent security settings across systems and devices to ensure security posture."
+        },
+        {
+            "id": 2079,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a security control baseline?",
+            "answer": "A security control baseline is a set of minimum security controls that must be implemented in an information system to protect against known threats."
+        },
+        {
+            "id": 2080,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security information lifecycle management?",
+            "answer": "Security information lifecycle management is the process of managing information security data throughout its lifecycle, from creation to destruction."
+        },
+        {
+            "id": 2081,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is network access security?",
+            "answer": "Network access security involves controlling and monitoring access to network resources through authentication, authorization, and accounting (AAA) mechanisms."
+        },
+        {
+            "id": 2082,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security monitoring?",
+            "answer": "Security monitoring is the continuous observation and analysis of network traffic, system logs, and security events to detect and respond to potential security threats."
+        },
+        {
+            "id": 2083,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is vulnerability management?",
+            "answer": "Vulnerability management is the cyclical practice of identifying, classifying, prioritizing, remediating, and mitigating security vulnerabilities in systems and software."
+        },
+        {
+            "id": 2084,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security architecture review?",
+            "answer": "Security architecture review is the process of evaluating an organization's security design to ensure it meets security requirements and follows best practices."
+        },
+        {
+            "id": 2085,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security compliance monitoring?",
+            "answer": "Security compliance monitoring involves tracking and assessing an organization's adherence to security policies, standards, and regulatory requirements."
+        },
+        {
+            "id": 2086,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security architecture modeling?",
+            "answer": "Security architecture modeling is the process of creating visual and technical representations of an organization's security structure to analyze and improve security controls."
+        },
+        {
+            "id": 2087,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security incident classification?",
+            "answer": "Security incident classification is the process of categorizing security incidents based on their severity, impact, and type to prioritize response efforts."
+        },
+        {
+            "id": 2088,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security change management?",
+            "answer": "Security change management is the process of ensuring that changes to systems and applications are properly assessed, approved, and implemented without compromising security."
+        },
+        {
+            "id": 2089,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security data classification?",
+            "answer": "Security data classification is the process of categorizing data based on its sensitivity and security requirements to ensure appropriate protection measures are applied."
+        },
+        {
+            "id": 2090,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security performance monitoring?",
+            "answer": "Security performance monitoring involves tracking and measuring the effectiveness of security controls and processes to ensure they meet organizational objectives."
+        },
+        {
+            "id": 2091,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security configuration baseline?",
+            "answer": "A security configuration baseline is a documented set of specifications for system components that define how they should be configured to maintain a basic security level."
+        },
+        {
+            "id": 2092,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security event correlation?",
+            "answer": "Security event correlation is the process of analyzing multiple security events to identify patterns and relationships that might indicate a security threat."
+        },
+        {
+            "id": 2093,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security risk assessment?",
+            "answer": "Security risk assessment is a systematic process of evaluating potential risks and their likelihood of occurrence to determine appropriate security controls."
+        },
+        {
+            "id": 2094,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a security control assessment?",
+            "answer": "A security control assessment is the testing or evaluation of security controls to determine their effectiveness and proper implementation."
+        },
+        {
+            "id": 2095,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is a security incident handler?",
+            "answer": "A security incident handler is a professional responsible for responding to and managing security incidents throughout their lifecycle."
+        },
+        {
+            "id": 2096,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security patch management?",
+            "answer": "Security patch management is the process of acquiring, testing, and installing updates to address security vulnerabilities in systems and software."
+        },
+        {
+            "id": 2097,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security configuration management?",
+            "answer": "Security configuration management is the practice of handling changes to a system's security controls, requirements, and procedures in a structured way."
+        },
+        {
+            "id": 2098,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security continuous monitoring?",
+            "answer": "Security continuous monitoring is the ongoing observation and analysis of a system's security state to maintain awareness of vulnerabilities and threats."
+        },
+        {
+            "id": 2099,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security architecture framework?",
+            "answer": "A security architecture framework provides a structured approach to designing and implementing security controls across an organization's systems and networks."
+        },
+        {
+            "id": 2100,
+            "topic": "ISC2 Certified in Cybersecurity",
+            "question": "What is security incident escalation?",
+            "answer": "Security incident escalation is the process of increasing the level of response to a security incident based on its severity and impact on the organization."
+        }
+    ]
+}

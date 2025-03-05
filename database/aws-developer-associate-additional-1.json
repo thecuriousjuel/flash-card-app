@@ -1,0 +1,94 @@
+{
+    "flashcards": [
+        {
+            "id": 46,
+            "topic": "AWS Developer Associate",
+            "question": "What is AWS Elastic Beanstalk?",
+            "answer": "AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services. You simply upload your code and Elastic Beanstalk automatically handles the deployment, capacity provisioning, load balancing, auto-scaling, and application health monitoring."
+        },
+        {
+            "id": 47,
+            "topic": "AWS Developer Associate",
+            "question": "What is AWS CodePipeline?",
+            "answer": "AWS CodePipeline is a fully managed continuous delivery service that helps you automate your release pipelines for fast and reliable application and infrastructure updates."
+        },
+        {
+            "id": 48,
+            "topic": "AWS Developer Associate",
+            "question": "How does AWS Lambda scaling work?",
+            "answer": "AWS Lambda automatically scales your application by running code in response to each trigger. When your code is triggered, Lambda automatically provisions the required compute capacity based on the size of the workload. There is no limit to the number of requests your application can handle."
+        },
+        {
+            "id": 49,
+            "topic": "AWS Developer Associate",
+            "question": "What is the difference between SQS and SNS?",
+            "answer": "Amazon SQS (Simple Queue Service) is a message queuing service for decoupling applications. Amazon SNS (Simple Notification Service) is a pub/sub service for sending messages to multiple subscribers. SQS is pull-based while SNS is push-based."
+        },
+        {
+            "id": 50,
+            "topic": "AWS Developer Associate",
+            "question": "What are the types of API Gateway endpoints?",
+            "answer": "Amazon API Gateway supports three types of endpoints: Edge-optimized (default) for global clients, Regional for clients in the same region, and Private which are accessible only within a VPC."
+        },
+        {
+            "id": 51,
+            "topic": "AWS Developer Associate",
+            "question": "What is DynamoDB DAX?",
+            "answer": "DynamoDB Accelerator (DAX) is a fully managed, highly available, in-memory cache for DynamoDB that delivers up to a 10x performance improvement by reducing response times from milliseconds to microseconds, even at millions of requests per second."
+        },
+        {
+            "id": 52,
+            "topic": "AWS Developer Associate",
+            "question": "What is the AWS SDK?",
+            "answer": "The AWS Software Development Kit (SDK) is a set of tools and libraries that enable developers to create applications that use AWS services. SDKs are available for multiple languages including Java, Python, JavaScript, .NET, Ruby, PHP, and Go."
+        },
+        {
+            "id": 53,
+            "topic": "AWS Developer Associate",
+            "question": "How do you handle authentication in AWS API Gateway?",
+            "answer": "AWS API Gateway supports multiple authentication methods: IAM roles and policies, Lambda authorizers (custom authorizers), Amazon Cognito user pools, and API keys for simple API key validation."
+        },
+        {
+            "id": 54,
+            "topic": "AWS Developer Associate",
+            "question": "What is AWS X-Ray?",
+            "answer": "AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture. X-Ray provides an end-to-end view of requests as they travel through your application."
+        },
+        {
+            "id": 55,
+            "topic": "AWS Developer Associate",
+            "question": "What is Amazon ECR?",
+            "answer": "Amazon Elastic Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images. It integrates with ECS, simplifying your development to production workflow."
+        },
+        {
+            "id": 56,
+            "topic": "AWS Developer Associate",
+            "question": "What is AWS CloudFormation?",
+            "answer": "AWS CloudFormation is an infrastructure as code service that allows you to model, provision, and manage AWS and third-party resources by treating infrastructure as code."
+        },
+        {
+            "id": 57,
+            "topic": "AWS Developer Associate",
+            "question": "What is Amazon Cognito?",
+            "answer": "Amazon Cognito lets you add user sign-up, sign-in, and access control to your web and mobile apps quickly and easily. It scales to millions of users and supports sign-in with social identity providers."
+        },
+        {
+            "id": 58,
+            "topic": "AWS Developer Associate",
+            "question": "What is AWS AppSync?",
+            "answer": "AWS AppSync is a fully managed service that makes it easy to develop GraphQL APIs by handling the heavy lifting of securely connecting to data sources like AWS DynamoDB, Lambda, and more."
+        },
+        {
+            "id": 59,
+            "topic": "AWS Developer Associate",
+            "question": "What is AWS Step Functions?",
+            "answer": "AWS Step Functions is a serverless workflow orchestration service that makes it easy to coordinate the components of distributed applications and microservices using visual workflows."
+        },
+        {
+            "id": 60,
+            "topic": "AWS Developer Associate",
+            "question": "What is AWS SAM?",
+            "answer": "AWS Serverless Application Model (SAM) is an open-source framework for building serverless applications. It provides shorthand syntax to express functions, APIs, databases, and event source mappings."
+        }
+    ]
+}

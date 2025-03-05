@@ -1,0 +1,64 @@
+{
+    "flashcards": [
+        {
+            "id": 11,
+            "topic": "React",
+            "question": "What is JSX in React?",
+            "answer": "JSX is a syntax extension for JavaScript that looks similar to HTML. It allows us to write HTML-like code in JavaScript and is transformed into JavaScript objects by Babel."
+        },
+        {
+            "id": 12,
+            "topic": "React",
+            "question": "Explain the difference between state and props.",
+            "answer": "Props are passed from parent to child components and are immutable. State is managed within a component and can be changed using setState()."
+        },
+        {
+            "id": 13,
+            "topic": "React",
+            "question": "What are React hooks?",
+            "answer": "Hooks are functions that let you use state and other React features without writing a class. Common hooks include useState, useEffect, useContext, etc."
+        },
+        {
+            "id": 14,
+            "topic": "React",
+            "question": "What is the virtual DOM in React?",
+            "answer": "The virtual DOM is a lightweight copy of the actual DOM. React uses it to improve performance by minimizing direct DOM manipulations."
+        },
+        {
+            "id": 15,
+            "topic": "React",
+            "question": "What is the purpose of keys in React lists?",
+            "answer": "Keys help React identify which items have changed, been added, or been removed. They should be unique among siblings to ensure proper rendering and component state."
+        },
+        {
+            "id": 16,
+            "topic": "React",
+            "question": "What are controlled components in React?",
+            "answer": "Controlled components are form elements whose values are controlled by React state. Any input changes update the state, and the state updates the input."
+        },
+        {
+            "id": 17,
+            "topic": "React",
+            "question": "What is the Context API in React?",
+            "answer": "The Context API provides a way to pass data through the component tree without having to pass props down manually at every level."
+        },
+        {
+            "id": 18,
+            "topic": "React",
+            "question": "Explain React's component lifecycle methods.",
+            "answer": "Component lifecycle methods are special methods that automatically get called when a component is created, updated, or destroyed. Examples include componentDidMount, componentDidUpdate, and componentWillUnmount."
+        },
+        {
+            "id": 19,
+            "topic": "React",
+            "question": "What is the useEffect hook used for?",
+            "answer": "useEffect is used for handling side effects in functional components. It runs after every render, but can be configured to run only when certain values change."
+        },
+        {
+            "id": 20,
+            "topic": "React",
+            "question": "What is Redux and when would you use it?",
+            "answer": "Redux is a state management library often used with React. It's useful for applications with complex state logic or when state needs to be shared across many components."
+        }
+    ]
+}

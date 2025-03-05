@@ -1,0 +1,604 @@
+{
+    "flashcards": [
+        {
+            "id": 1001,
+            "topic": "GIT",
+            "question": "What is Git?",
+            "answer": "Git is a distributed version control system that tracks changes in source code during software development. It allows multiple developers to work together on non-linear development."
+        },
+        {
+            "id": 1002,
+            "topic": "GIT",
+            "question": "What is a Git repository?",
+            "answer": "A Git repository is a data structure that stores metadata for a set of files and directories, including version history and references. It contains all project files and the complete history of changes."
+        },
+        {
+            "id": 1003,
+            "topic": "GIT",
+            "question": "What is the difference between Git and GitHub?",
+            "answer": "Git is a version control system for tracking changes in source code, while GitHub is a web-based hosting service for Git repositories that provides collaboration features."
+        },
+        {
+            "id": 1004,
+            "topic": "GIT",
+            "question": "What is a branch in Git?",
+            "answer": "A branch in Git is a lightweight movable pointer to a commit. It represents an independent line of development, allowing you to work on features or fixes without affecting the main codebase."
+        },
+        {
+            "id": 1005,
+            "topic": "GIT",
+            "question": "What is git clone?",
+            "answer": "git clone is a command used to create a copy of a remote repository on your local machine. It downloads all files, branches, and history of the project."
+        },
+        {
+            "id": 1006,
+            "topic": "GIT",
+            "question": "What is git commit?",
+            "answer": "git commit is a command used to save your changes to the local repository. It creates a new commit object with a unique identifier and a message describing the changes."
+        },
+        {
+            "id": 1007,
+            "topic": "GIT",
+            "question": "What is git push?",
+            "answer": "git push is a command used to upload local repository content to a remote repository. It transfers commits from your local repository to a remote repo."
+        },
+        {
+            "id": 1008,
+            "topic": "GIT",
+            "question": "What is git pull?",
+            "answer": "git pull is a command used to fetch and download content from a remote repository and immediately update the local repository to match that content."
+        },
+        {
+            "id": 1009,
+            "topic": "GIT",
+            "question": "What is git merge?",
+            "answer": "git merge is a command used to combine multiple sequences of commits into one unified history. It is most commonly used to combine two branches."
+        },
+        {
+            "id": 1010,
+            "topic": "GIT",
+            "question": "What is a merge conflict?",
+            "answer": "A merge conflict occurs when Git is unable to automatically resolve differences in code between two commits. This usually happens when two people modify the same lines in a file."
+        },
+        {
+            "id": 1011,
+            "topic": "GIT",
+            "question": "What is git fetch?",
+            "answer": "git fetch is a command that downloads commits, files, and refs from a remote repository into your local repo. Unlike pull, it doesn't automatically merge changes into your working files."
+        },
+        {
+            "id": 1012,
+            "topic": "GIT",
+            "question": "What is git status?",
+            "answer": "git status shows the current state of your working directory and staging area. It shows which changes have been staged, which haven't, and which files aren't being tracked by Git."
+        },
+        {
+            "id": 1013,
+            "topic": "GIT",
+            "question": "What is git add?",
+            "answer": "git add is a command used to add file contents to the staging area (index). It prepares files for the next commit by tracking new files and staging modified files."
+        },
+        {
+            "id": 1014,
+            "topic": "GIT",
+            "question": "What is git reset?",
+            "answer": "git reset is a command used to undo changes. It moves the current HEAD to a specified state. Common options include --soft (keeps changes staged), --mixed (unstages changes), and --hard (discards changes)."
+        },
+        {
+            "id": 1015,
+            "topic": "GIT",
+            "question": "What is a Git tag?",
+            "answer": "A Git tag is a reference that points to a specific point in Git history. Tags are commonly used to mark version releases (e.g., v1.0.0) and don't change once created."
+        },
+        {
+            "id": 1016,
+            "topic": "GIT",
+            "question": "What is git rebase?",
+            "answer": "git rebase is a command that allows you to integrate changes from one branch into another by moving or combining a sequence of commits to a new base commit."
+        },
+        {
+            "id": 1017,
+            "topic": "GIT",
+            "question": "What is git stash?",
+            "answer": "git stash temporarily shelves changes you've made to your working directory so you can switch to another branch or work on something else."
+        },
+        {
+            "id": 1018,
+            "topic": "GIT",
+            "question": "What is git cherry-pick?",
+            "answer": "git cherry-pick allows you to pick specific commits from one branch and apply them to another branch."
+        },
+        {
+            "id": 1019,
+            "topic": "GIT",
+            "question": "What is git remote?",
+            "answer": "git remote manages the set of remote repositories that your local repository tracks. These are typically used for collaboration."
+        },
+        {
+            "id": 1020,
+            "topic": "GIT",
+            "question": "What is git log?",
+            "answer": "git log shows the commit history of your repository, including commit messages, authors, dates, and commit hashes."
+        },
+        {
+            "id": 1021,
+            "topic": "GIT",
+            "question": "What is git diff?",
+            "answer": "git diff shows the differences between various Git states, such as working directory vs. staging area, staging area vs. last commit, or between two commits."
+        },
+        {
+            "id": 1022,
+            "topic": "GIT",
+            "question": "What is git checkout?",
+            "answer": "git checkout is used to switch between different branches or restore working tree files. It allows you to navigate between the branches created by git branch."
+        },
+        {
+            "id": 1023,
+            "topic": "GIT",
+            "question": "What is git init?",
+            "answer": "git init initializes a new Git repository by creating a new .git directory with subdirectories for objects, refs, and template files."
+        },
+        {
+            "id": 1024,
+            "topic": "GIT",
+            "question": "What is git blame?",
+            "answer": "git blame shows what revision and author last modified each line of a file, useful for tracking down when and by whom changes were made."
+        },
+        {
+            "id": 1025,
+            "topic": "GIT",
+            "question": "What is git revert?",
+            "answer": "git revert creates a new commit that undoes the changes made in a previous commit, preserving the project's history."
+        },
+        {
+            "id": 1026,
+            "topic": "GIT",
+            "question": "What is git bisect?",
+            "answer": "git bisect is a command used to find the commit that introduced a bug by using binary search through the commit history."
+        },
+        {
+            "id": 1027,
+            "topic": "GIT",
+            "question": "What is git reflog?",
+            "answer": "git reflog shows a log of changes to the head of your repository, which is useful for recovering lost commits or branches."
+        },
+        {
+            "id": 1028,
+            "topic": "GIT",
+            "question": "What is git submodule?",
+            "answer": "git submodule allows you to include other Git repositories within your repository as subdirectories, keeping their histories separate."
+        },
+        {
+            "id": 1029,
+            "topic": "GIT",
+            "question": "What is git config?",
+            "answer": "git config is used to set configuration options for Git installation, such as user name, email, editor, and aliases."
+        },
+        {
+            "id": 1030,
+            "topic": "GIT",
+            "question": "What is a Git hook?",
+            "answer": "Git hooks are scripts that run automatically before or after Git events like commit, push, and receive, allowing custom behavior in your Git workflow."
+        },
+        {
+            "id": 1031,
+            "topic": "GIT",
+            "question": "What is git branch?",
+            "answer": "git branch is a command used to list, create, or delete branches in a Git repository. It helps manage different lines of development within a project."
+        },
+        {
+            "id": 1032,
+            "topic": "GIT",
+            "question": "What is git rm?",
+            "answer": "git rm is a command used to remove files from both the working directory and the Git staging area, preparing the removal to be committed."
+        },
+        {
+            "id": 1033,
+            "topic": "GIT",
+            "question": "What is git mv?",
+            "answer": "git mv is a command used to move or rename files in Git while maintaining their history. It's equivalent to doing a file move/rename followed by git add and git rm."
+        },
+        {
+            "id": 1034,
+            "topic": "GIT",
+            "question": "What is git clean?",
+            "answer": "git clean is a command used to remove untracked files from the working directory. It helps keep your working directory clean by removing files that aren't being tracked by Git."
+        },
+        {
+            "id": 1035,
+            "topic": "GIT",
+            "question": "What is git shortlog?",
+            "answer": "git shortlog summarizes git log output in a format suitable for release announcements. It groups commits by author and shows the first line of each commit message."
+        },
+        {
+            "id": 1036,
+            "topic": "GIT",
+            "question": "What is a .gitignore file?",
+            "answer": "A .gitignore file specifies which files and directories Git should ignore. It's used to exclude build artifacts, dependencies, and other files that shouldn't be version controlled."
+        },
+        {
+            "id": 1037,
+            "topic": "GIT",
+            "question": "What is Git Flow?",
+            "answer": "Git Flow is a branching model that defines a strict branching strategy for feature development, release preparation, and maintenance using branches like master, develop, feature/, release/, and hotfix/."
+        },
+        {
+            "id": 1038,
+            "topic": "GIT",
+            "question": "What is git squash?",
+            "answer": "Git squash is the process of combining multiple commits into a single commit. It's often used to create a cleaner, more manageable commit history."
+        },
+        {
+            "id": 1039,
+            "topic": "GIT",
+            "question": "What is git rev-parse?",
+            "answer": "git rev-parse is a low-level command that helps convert different ways of naming Git objects into their corresponding commit hashes."
+        },
+        {
+            "id": 1040,
+            "topic": "GIT",
+            "question": "What is the HEAD in Git?",
+            "answer": "HEAD is a pointer that refers to the current branch reference, which in turn points to the last commit made on that branch. It represents your current working directory state."
+        },
+        {
+            "id": 1041,
+            "topic": "GIT",
+            "question": "What is git archive?",
+            "answer": "git archive creates an archive file of a specified format containing a tree of the Git repository, optionally including metadata and commit history."
+        },
+        {
+            "id": 1042,
+            "topic": "GIT",
+            "question": "What is git describe?",
+            "answer": "git describe is used to create a descriptive identifier for a commit based on the nearest tag, particularly useful for version identification in release processes."
+        },
+        {
+            "id": 1043,
+            "topic": "GIT",
+            "question": "What is git worktree?",
+            "answer": "git worktree allows you to maintain multiple working trees attached to the same repository, enabling work on different branches simultaneously in different directories."
+        },
+        {
+            "id": 1044,
+            "topic": "GIT",
+            "question": "What is git grep?",
+            "answer": "git grep searches for patterns in your repository's tracked files. It's similar to regular grep but optimized for Git repositories."
+        },
+        {
+            "id": 1045,
+            "topic": "GIT",
+            "question": "What is git fsck?",
+            "answer": "git fsck (file system check) verifies the connectivity and validity of the objects in the Git database, helping identify corrupted objects."
+        },
+        {
+            "id": 1046,
+            "topic": "GIT",
+            "question": "What are Git objects?",
+            "answer": "Git objects are the building blocks of Git's internal database: blobs (file contents), trees (directory listings), commits (snapshots), and tags (references to specific commits)."
+        },
+        {
+            "id": 1047,
+            "topic": "GIT",
+            "question": "What is a Git reference?",
+            "answer": "A Git reference (ref) is a pointer to a commit. Common refs include branches (refs/heads/*), remote branches (refs/remotes/*), and tags (refs/tags/*)."
+        },
+        {
+            "id": 1048,
+            "topic": "GIT",
+            "question": "What is the git gc command?",
+            "answer": "git gc (garbage collection) cleans up unnecessary files and optimizes your repository by removing unreachable objects and compressing file revisions."
+        },
+        {
+            "id": 1049,
+            "topic": "GIT",
+            "question": "What is git filter-branch?",
+            "answer": "git filter-branch is used to rewrite Git revision history by applying custom filters, like removing files or modifying commit messages across multiple commits."
+        },
+        {
+            "id": 1050,
+            "topic": "GIT",
+            "question": "What is git prune?",
+            "answer": "git prune removes unreachable objects from Git's object database that aren't referenced by any branch, tag, or other reference."
+        },
+        {
+            "id": 1051,
+            "topic": "GIT",
+            "question": "What is Git LFS?",
+            "answer": "Git Large File Storage (LFS) is an extension that replaces large files with text pointers in Git, while storing the actual file contents in a remote server, improving repository performance."
+        },
+        {
+            "id": 1052,
+            "topic": "GIT",
+            "question": "What are Git bundle files?",
+            "answer": "Git bundles are files that contain Git repository data, allowing you to package and transfer Git commits without requiring a network connection or remote repository."
+        },
+        {
+            "id": 1053,
+            "topic": "GIT",
+            "question": "What is the Git object model?",
+            "answer": "The Git object model consists of four types of objects (blobs, trees, commits, and tags) that form a directed acyclic graph representing the history of your project."
+        },
+        {
+            "id": 1054,
+            "topic": "GIT",
+            "question": "What is a detached HEAD state?",
+            "answer": "A detached HEAD state occurs when you checkout a specific commit instead of a branch. In this state, new commits won't belong to any branch and may be lost."
+        },
+        {
+            "id": 1055,
+            "topic": "GIT",
+            "question": "What is git format-patch?",
+            "answer": "git format-patch creates patch files for one or more commits, which can be sent via email and applied to another repository using git am command."
+        },
+        {
+            "id": 1056,
+            "topic": "GIT",
+            "question": "What is Git rerere?",
+            "answer": "Git rerere (reuse recorded resolution) is a feature that remembers how you resolved merge conflicts and automatically reapplies the resolution when Git encounters the same conflict again."
+        },
+        {
+            "id": 1057,
+            "topic": "GIT",
+            "question": "What is git request-pull?",
+            "answer": "git request-pull generates a summary of changes between two commits that you can send to someone to pull changes from your repository."
+        },
+        {
+            "id": 1058,
+            "topic": "GIT",
+            "question": "What is git verify-commit?",
+            "answer": "git verify-commit checks the GPG signature of commits to verify their authenticity, ensuring they were created by a trusted source."
+        },
+        {
+            "id": 1059,
+            "topic": "GIT",
+            "question": "What is git worktree add?",
+            "answer": "git worktree add creates a new working tree associated with your repository, allowing you to work on multiple branches simultaneously without switching branches."
+        },
+        {
+            "id": 1060,
+            "topic": "GIT",
+            "question": "What is the Git index?",
+            "answer": "The Git index (or staging area) is a binary file in the .git directory that stores information about what will go into your next commit."
+        },
+        {
+            "id": 1061,
+            "topic": "GIT",
+            "question": "What is git daemon?",
+            "answer": "git daemon is a persistent process that serves Git repositories over the Git protocol, allowing anonymous read-only access to Git repositories."
+        },
+        {
+            "id": 1062,
+            "topic": "GIT",
+            "question": "What is a bare Git repository?",
+            "answer": "A bare Git repository contains only the Git revision history with no working directory, typically used as a central repository that other repositories can push to and pull from."
+        },
+        {
+            "id": 1063,
+            "topic": "GIT",
+            "question": "What is git credential-store?",
+            "answer": "git credential-store is a Git credential helper that stores credentials in a plain-text file on disk, allowing automated authentication for Git operations."
+        },
+        {
+            "id": 1064,
+            "topic": "GIT",
+            "question": "What is git replace?",
+            "answer": "git replace allows you to replace one object in Git with another, useful for creating alternative histories or fixing mistakes in old commits."
+        },
+        {
+            "id": 1065,
+            "topic": "GIT",
+            "question": "What is git notes?",
+            "answer": "git notes allows you to add or inspect object notes, which are references that add extra information to an object without changing its identity."
+        },
+        {
+            "id": 1066,
+            "topic": "GIT",
+            "question": "What is git hash-object?",
+            "answer": "git hash-object is a low-level plumbing command that computes the object ID from a file or stdin, optionally creating a blob object from the content."
+        },
+        {
+            "id": 1067,
+            "topic": "GIT",
+            "question": "What is git update-index?",
+            "answer": "git update-index is a low-level plumbing command that manipulates the Git index file, registering file contents and updating their cache entries."
+        },
+        {
+            "id": 1068,
+            "topic": "GIT",
+            "question": "What is git write-tree?",
+            "answer": "git write-tree creates a tree object from the current index, effectively taking a snapshot of the staging area and storing it as a tree object."
+        },
+        {
+            "id": 1069,
+            "topic": "GIT",
+            "question": "What is git commit-tree?",
+            "answer": "git commit-tree creates a new commit object from an existing tree object, allowing you to manually create commits with specific parent commits."
+        },
+        {
+            "id": 1070,
+            "topic": "GIT",
+            "question": "What is git refspec?",
+            "answer": "A git refspec maps references in remote repositories to references in your local repository, defining which remote branches to fetch and where to store them locally."
+        },
+        {
+            "id": 1071,
+            "topic": "GIT",
+            "question": "What is git count-objects?",
+            "answer": "git count-objects displays statistics about the Git object database, including disk usage and number of loose objects, helping monitor repository size and health."
+        },
+        {
+            "id": 1072,
+            "topic": "GIT",
+            "question": "What is git merge --no-ff?",
+            "answer": "git merge --no-ff creates a merge commit even when a fast-forward merge is possible, preserving branch history and making it easier to track feature development."
+        },
+        {
+            "id": 1073,
+            "topic": "GIT",
+            "question": "What is git read-tree?",
+            "answer": "git read-tree reads tree object information into the index, allowing you to manipulate the staging area directly with low-level Git operations."
+        },
+        {
+            "id": 1074,
+            "topic": "GIT",
+            "question": "What is git update-ref?",
+            "answer": "git update-ref updates a Git reference to point to a specific commit, useful for low-level reference manipulation and creating or updating branches."
+        },
+        {
+            "id": 1075,
+            "topic": "GIT",
+            "question": "What is the packed-refs file in Git?",
+            "answer": "The packed-refs file contains a list of all references in a compact format, improving performance by reducing the number of files Git needs to read."
+        },
+        {
+            "id": 1076,
+            "topic": "GIT",
+            "question": "What is git pack-objects?",
+            "answer": "git pack-objects creates a packed archive of objects for efficient storage and transfer, combining multiple loose objects into a single pack file."
+        },
+        {
+            "id": 1077,
+            "topic": "GIT",
+            "question": "What is git verify-pack?",
+            "answer": "git verify-pack validates the packed Git archive files to ensure their integrity and displays information about the packed objects."
+        },
+        {
+            "id": 1078,
+            "topic": "GIT",
+            "question": "What is git name-rev?",
+            "answer": "git name-rev finds symbolic names for given revisions, helping to translate SHA-1 hashes into more human-readable names based on available refs."
+        },
+        {
+            "id": 1079,
+            "topic": "GIT",
+            "question": "What is git merge-base?",
+            "answer": "git merge-base finds the best common ancestor between two commits, which is useful for determining the point where two branches diverged."
+        },
+        {
+            "id": 1080,
+            "topic": "GIT",
+            "question": "What is git interpret-trailers?",
+            "answer": "git interpret-trailers helps add or parse structured information in commit messages, such as 'Signed-off-by' or custom trailer lines."
+        },
+        {
+            "id": 1081,
+            "topic": "GIT",
+            "question": "What is a Git shallow clone?",
+            "answer": "A Git shallow clone is created using --depth option with git clone, which creates a repository with incomplete history to reduce download size and save disk space."
+        },
+        {
+            "id": 1082,
+            "topic": "GIT",
+            "question": "What is git subtree?",
+            "answer": "git subtree is a tool for managing project dependencies as subdirectories of your main project, allowing you to include other repositories within your own while maintaining a single repository."
+        },
+        {
+            "id": 1083,
+            "topic": "GIT",
+            "question": "What is the Git wire protocol?",
+            "answer": "The Git wire protocol is the communication protocol used between Git clients and servers for operations like clone, fetch, and push. It can use HTTP or SSH transport."
+        },
+        {
+            "id": 1084,
+            "topic": "GIT",
+            "question": "What is git maintenance?",
+            "answer": "git maintenance is a command that helps automate repository optimization tasks like garbage collection, commit-graph updates, and loose object cleanup."
+        },
+        {
+            "id": 1085,
+            "topic": "GIT",
+            "question": "What is Git garbage collection?",
+            "answer": "Git garbage collection is the process of removing unnecessary files and optimizing the repository database by packing loose objects and removing unreachable objects."
+        },
+        {
+            "id": 1086,
+            "topic": "GIT",
+            "question": "What is git verify-tag?",
+            "answer": "git verify-tag checks the GPG signature of tags to verify their authenticity, ensuring they were created by a trusted source and haven't been tampered with."
+        },
+        {
+            "id": 1087,
+            "topic": "GIT",
+            "question": "What is git check-ignore?",
+            "answer": "git check-ignore is used to debug gitignore patterns, showing which pattern (if any) caused a file to be ignored."
+        },
+        {
+            "id": 1088,
+            "topic": "GIT",
+            "question": "What is git check-mailmap?",
+            "answer": "git check-mailmap shows the canonical names and email addresses of contributors, using the .mailmap file to map author and committer names and addresses."
+        },
+        {
+            "id": 1089,
+            "topic": "GIT",
+            "question": "What is git check-attr?",
+            "answer": "git check-attr displays gitattributes information for files, helping diagnose how Git will handle specific files based on attributes set in .gitattributes."
+        },
+        {
+            "id": 1090,
+            "topic": "GIT",
+            "question": "What is git merge-file?",
+            "answer": "git merge-file performs a three-way merge on individual files using a specified merge strategy, useful for custom merge workflows."
+        },
+        {
+            "id": 1091,
+            "topic": "GIT",
+            "question": "What is git rev-list?",
+            "answer": "git rev-list lists commit objects in reverse chronological order, useful for scripting and finding specific commits based on various criteria."
+        },
+        {
+            "id": 1092,
+            "topic": "GIT",
+            "question": "What is git show-ref?",
+            "answer": "git show-ref lists references in a local repository along with their corresponding commit IDs, helping to debug reference-related issues."
+        },
+        {
+            "id": 1093,
+            "topic": "GIT",
+            "question": "What is git var?",
+            "answer": "git var displays Git's internal variables, showing how Git has been configured to operate in the current environment."
+        },
+        {
+            "id": 1094,
+            "topic": "GIT",
+            "question": "What is git verify-commit?",
+            "answer": "git verify-commit verifies the GPG signature of commits, ensuring they were created by trusted contributors and haven't been tampered with."
+        },
+        {
+            "id": 1095,
+            "topic": "GIT",
+            "question": "What is git show-branch?",
+            "answer": "git show-branch shows the commit history and relationships between multiple branches, helping visualize branch topology."
+        },
+        {
+            "id": 1096,
+            "topic": "GIT",
+            "question": "What is git pack-redundant?",
+            "answer": "git pack-redundant finds redundant pack files in your repository, helping to identify which pack files can be removed to optimize storage."
+        },
+        {
+            "id": 1097,
+            "topic": "GIT",
+            "question": "What is git unpack-objects?",
+            "answer": "git unpack-objects unpacks objects from a packed archive into the repository's object database, used when receiving objects from a remote repository."
+        },
+        {
+            "id": 1098,
+            "topic": "GIT",
+            "question": "What is git update-server-info?",
+            "answer": "git update-server-info updates auxiliary info files to help dumb servers and HTTP servers work with Git repositories."
+        },
+        {
+            "id": 1099,
+            "topic": "GIT",
+            "question": "What is git patch-id?",
+            "answer": "git patch-id computes a unique ID for a patch by only considering the change itself, regardless of context lines or timestamps."
+        },
+        {
+            "id": 1100,
+            "topic": "GIT",
+            "question": "What is git ls-remote?",
+            "answer": "git ls-remote shows references (heads and tags) in a remote repository without cloning or fetching, useful for inspecting remote repositories."
+        }
+    ]
+}

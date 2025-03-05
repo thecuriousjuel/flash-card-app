@@ -1,0 +1,94 @@
+{
+    "flashcards": [
+        {
+            "id": 61,
+            "topic": "AWS Solutions Architect Associate",
+            "question": "What is AWS Direct Connect?",
+            "answer": "AWS Direct Connect is a cloud service solution that makes it easy to establish a dedicated network connection from your premises to AWS, providing a more consistent network experience than internet-based connections."
+        },
+        {
+            "id": 62,
+            "topic": "AWS Solutions Architect Associate",
+            "question": "What is an Auto Scaling Group?",
+            "answer": "An Auto Scaling Group contains a collection of EC2 instances that are treated as a logical grouping for the purposes of automatic scaling and management. It enables you to automatically increase or decrease the number of instances based on policies you define."
+        },
+        {
+            "id": 63,
+            "topic": "AWS Solutions Architect Associate",
+            "question": "What is the difference between a NAT Gateway and NAT Instance?",
+            "answer": "A NAT Gateway is a managed AWS service that provides Network Address Translation to enable instances in a private subnet to connect to the internet. A NAT Instance is a self-managed EC2 instance configured to perform NAT. NAT Gateways provide better availability, higher bandwidth, and require less administration."
+        },
+        {
+            "id": 64,
+            "topic": "AWS Solutions Architect Associate",
+            "question": "What is AWS Transit Gateway?",
+            "answer": "AWS Transit Gateway is a service that enables customers to connect their Amazon Virtual Private Clouds (VPCs) and their on-premises networks to a single gateway, simplifying network architecture and reducing operational overhead."
+        },
+        {
+            "id": 65,
+            "topic": "AWS Solutions Architect Associate",
+            "question": "What is Amazon EFS?",
+            "answer": "Amazon Elastic File System (EFS) provides a simple, scalable, elastic file system for Linux-based workloads for use with AWS Cloud services and on-premises resources. It is built to scale on demand to petabytes without disrupting applications."
+        },
+        {
+            "id": 66,
+            "topic": "AWS Solutions Architect Associate",
+            "question": "What are the storage classes available in Amazon S3?",
+            "answer": "Amazon S3 offers various storage classes: S3 Standard, S3 Intelligent-Tiering, S3 Standard-Infrequent Access, S3 One Zone-Infrequent Access, S3 Glacier, and S3 Glacier Deep Archive. Each class has different characteristics for availability, durability, retrieval times, and cost."
+        },
+        {
+            "id": 67,
+            "topic": "AWS Solutions Architect Associate",
+            "question": "What is Amazon Aurora?",
+            "answer": "Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for the cloud. It combines the performance and availability of traditional enterprise databases with the simplicity and cost-effectiveness of open-source databases."
+        },
+        {
+            "id": 68,
+            "topic": "AWS Solutions Architect Associate",
+            "question": "What is AWS Shield?",
+            "answer": "AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS. It provides always-on detection and automatic inline mitigations that minimize application downtime and latency."
+        },
+        {
+            "id": 69,
+            "topic": "AWS Solutions Architect Associate",
+            "question": "What is the difference between a security group and a network ACL in AWS?",
+            "answer": "Security groups operate at the instance level and support allow rules only. They are stateful (return traffic is automatically allowed). Network ACLs operate at the subnet level, support both allow and deny rules, and are stateless (return traffic must be explicitly allowed)."
+        },
+        {
+            "id": 70,
+            "topic": "AWS Solutions Architect Associate",
+            "question": "What is AWS CloudFormation?",
+            "answer": "AWS CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment. It allows you to use a simple text file to model and provision all the resources needed for your applications in an automated and secure manner."
+        },
+        {
+            "id": 71,
+            "topic": "AWS Solutions Architect Associate",
+            "question": "What is Elastic Load Balancing?",
+            "answer": "Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, and Lambda functions. It can handle varying traffic loads in a single Availability Zone or across multiple Availability Zones."
+        },
+        {
+            "id": 72,
+            "topic": "AWS Solutions Architect Associate",
+            "question": "What is Amazon Route 53?",
+            "answer": "Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service. It is designed to give developers and businesses an extremely reliable and cost-effective way to route end users to Internet applications."
+        },
+        {
+            "id": 73,
+            "topic": "AWS Solutions Architect Associate",
+            "question": "What are the different types of EC2 instance purchasing options?",
+            "answer": "EC2 instance purchasing options include On-Demand Instances (pay by the hour), Reserved Instances (reserved capacity with significant discount), Spot Instances (bid on unused EC2 capacity, up to 90% discount), and Dedicated Hosts (physical servers dedicated for your use)."
+        },
+        {
+            "id": 74,
+            "topic": "AWS Solutions Architect Associate",
+            "question": "What is AWS Organizations?",
+            "answer": "AWS Organizations helps you centrally govern your environment as you grow and scale your workloads on AWS. You can programmatically create new AWS accounts, allocate resources, group accounts to organize your workloads, and apply policies for governance."
+        },
+        {
+            "id": 75,
+            "topic": "AWS Solutions Architect Associate",
+            "question": "What is AWS WAF?",
+            "answer": "AWS WAF (Web Application Firewall) is a web application firewall that helps protect your web applications from common web exploits that could affect application availability, compromise security, or consume excessive resources."
+        }
+    ]
+}
