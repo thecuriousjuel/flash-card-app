@@ -1,0 +1,34 @@
+{
+  "flashcards": [
+    {
+      "id": 2001,
+      "topic": "ISC2 Certified in Cybersecurity",
+      "question": "What is the CIA triad?",
+      "answer": "The CIA triad consists of Confidentiality, Integrity, and Availability. These are the three main principles of information security that help organizations protect their assets."
+    },
+    {
+      "id": 2002,
+      "topic": "ISC2 Certified in Cybersecurity",
+      "question": "What is authentication?",
+      "answer": "Authentication is the process of verifying the identity of a user, device, or system. It confirms that an entity is who or what it claims to be."
+    },
+    {
+      "id": 2003,
+      "topic": "ISC2 Certified in Cybersecurity",
+      "question": "What is authorization?",
+      "answer": "Authorization is the process of determining what actions, resources, or services a user, device, or system is allowed to access after authentication has been confirmed."
+    },
+    {
+      "id": 2004,
+      "topic": "ISC2 Certified in Cybersecurity",
+      "question": "What is a security control?",
+      "answer": "A security control is a safeguard or countermeasure designed to protect the confidentiality, integrity, and availability of information systems and data."
+    },
+    {
+      "id": 2005,
+      "topic": "ISC2 Certified in Cybersecurity",
+      "question": "What is risk management?",
+      "answer": "Risk management is the continuous process of identifying, assessing, and responding to security risks through the implementation of appropriate controls and countermeasures."
+    }
+  ]
+}

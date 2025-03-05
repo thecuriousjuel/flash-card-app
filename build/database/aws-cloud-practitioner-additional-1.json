@@ -1,0 +1,94 @@
+{
+    "flashcards": [
+        {
+            "id": 31,
+            "topic": "AWS Cloud Practitioner",
+            "question": "What is Amazon EC2?",
+            "answer": "Amazon Elastic Compute Cloud (EC2) is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers."
+        },
+        {
+            "id": 32,
+            "topic": "AWS Cloud Practitioner",
+            "question": "What is Amazon S3?",
+            "answer": "Amazon Simple Storage Service (S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. It can be used to store and retrieve any amount of data at any time."
+        },
+        {
+            "id": 33,
+            "topic": "AWS Cloud Practitioner",
+            "question": "What is AWS Lambda?",
+            "answer": "AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers. You pay only for the compute time you consume."
+        },
+        {
+            "id": 34,
+            "topic": "AWS Cloud Practitioner",
+            "question": "What is Amazon RDS?",
+            "answer": "Amazon Relational Database Service (RDS) makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity while automating time-consuming administration tasks."
+        },
+        {
+            "id": 35,
+            "topic": "AWS Cloud Practitioner",
+            "question": "What is the AWS Shared Responsibility Model?",
+            "answer": "The AWS Shared Responsibility Model defines what security responsibilities belong to AWS (security OF the cloud) and what belongs to the customer (security IN the cloud). AWS is responsible for protecting infrastructure, while customers are responsible for data and application security."
+        },
+        {
+            "id": 36,
+            "topic": "AWS Cloud Practitioner",
+            "question": "What is an AWS Region?",
+            "answer": "An AWS Region is a physical location around the world where AWS clusters data centers. Each group of logical data centers is called an Availability Zone. Each AWS Region consists of multiple, isolated Availability Zones."
+        },
+        {
+            "id": 37,
+            "topic": "AWS Cloud Practitioner",
+            "question": "What is Amazon VPC?",
+            "answer": "Amazon Virtual Private Cloud (VPC) lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define."
+        },
+        {
+            "id": 38,
+            "topic": "AWS Cloud Practitioner",
+            "question": "What is AWS IAM?",
+            "answer": "AWS Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources."
+        },
+        {
+            "id": 39,
+            "topic": "AWS Cloud Practitioner",
+            "question": "What is Amazon CloudFront?",
+            "answer": "Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency and high transfer speeds."
+        },
+        {
+            "id": 40,
+            "topic": "AWS Cloud Practitioner",
+            "question": "What is AWS CloudWatch?",
+            "answer": "Amazon CloudWatch is a monitoring and observability service that provides data and actionable insights for AWS, hybrid, and on-premises applications and infrastructure resources."
+        },
+        {
+            "id": 41,
+            "topic": "AWS Cloud Practitioner",
+            "question": "What is AWS Auto Scaling?",
+            "answer": "AWS Auto Scaling monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost."
+        },
+        {
+            "id": 42,
+            "topic": "AWS Cloud Practitioner",
+            "question": "What is Amazon DynamoDB?",
+            "answer": "Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability."
+        },
+        {
+            "id": 43,
+            "topic": "AWS Cloud Practitioner",
+            "question": "What is AWS Elastic Beanstalk?",
+            "answer": "AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker."
+        },
+        {
+            "id": 44,
+            "topic": "AWS Cloud Practitioner",
+            "question": "What is AWS Trusted Advisor?",
+            "answer": "AWS Trusted Advisor is an online tool that provides real-time guidance to help you provision your resources following AWS best practices."
+        },
+        {
+            "id": 45,
+            "topic": "AWS Cloud Practitioner",
+            "question": "What is Amazon SNS?",
+            "answer": "Amazon Simple Notification Service (SNS) is a fully managed messaging service for both application-to-application (A2A) and application-to-person (A2P) communication."
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+  "flashcards": [
+    {
+      "id": 21,
+      "topic": "CSS",
+      "question": "What is the box model in CSS?",
+      "answer": "The CSS box model is a box that wraps around every HTML element, consisting of margins, borders, padding, and the actual content."
+    },
+    {
+      "id": 22,
+      "topic": "CSS",
+      "question": "What is the difference between inline, inline-block, and block display values?",
+      "answer": "inline elements don't start on a new line and only take up as much width as necessary. inline-block elements are similar but can have width and height. block elements start on a new line and take the full width available."
+    },
+    {
+      "id": 23,
+      "topic": "CSS",
+      "question": "What is a CSS preprocessor?",
+      "answer": "A CSS preprocessor is a scripting language that extends CSS and is compiled into regular CSS, examples include Sass, LESS, and Stylus."
+    },
+    {
+      "id": 24,
+      "topic": "CSS",
+      "question": "What are CSS media queries?",
+      "answer": "Media queries allow you to apply CSS styles based on the device characteristics, like screen size, resolution, or orientation. They're crucial for responsive web design."
+    },
+    {
+      "id": 25,
+      "topic": "CSS",
+      "question": "What is CSS specificity?",
+      "answer": "Specificity is how browsers decide which CSS property values are applied to an element when multiple rules could apply. It's calculated as a weight assigned to different selectors."
+    },
+    {
+      "id": 21,
+      "topic": "CSS",
+      "question": "What is the box model in CSS?",
+      "answer": "The CSS box model is a box that wraps around every HTML element, consisting of margins, borders, padding, and the actual content."
+    },
+    {
+      "id": 22,
+      "topic": "CSS",
+      "question": "What is the difference between inline, inline-block, and block display values?",
+      "answer": "inline elements don't start on a new line and only take up as much width as necessary. inline-block elements are like inline but can have width and height. block elements start on a new line and take up the full width available."
+    },
+    {
+      "id": 23,
+      "topic": "CSS",
+      "question": "What is a CSS preprocessor?",
+      "answer": "A CSS preprocessor is a scripting language that extends CSS and is compiled into regular CSS. Examples include SASS, LESS, and Stylus, which add features like variables, nesting, and mixins."
+    },
+    {
+      "id": 24,
+      "topic": "CSS",
+      "question": "What are CSS media queries?",
+      "answer": "Media queries allow you to apply CSS styles based on the device characteristics, like screen size, resolution, or orientation. They're crucial for responsive web design."
+    },
+    {
+      "id": 25,
+      "topic": "CSS",
+      "question": "What is CSS specificity?",
+      "answer": "Specificity is how browsers decide which CSS property values are applied to an element. It is determined by the combination of selectors used, with inline styles having highest specificity."
+    },
+    {
+      "id": 26,
+      "topic": "CSS",
+      "question": "What is Flexbox in CSS?",
+      "answer": "Flexbox is a one-dimensional layout method designed for laying out items in rows or columns. It provides flexible distribution of space and alignment capabilities."
+    },
+    {
+      "id": 27,
+      "topic": "CSS",
+      "question": "What is CSS Grid?",
+      "answer": "CSS Grid is a two-dimensional layout system designed for complex layouts that can handle both rows and columns simultaneously."
+    },
+    {
+      "id": 28,
+      "topic": "CSS",
+      "question": "What are pseudo-classes in CSS?",
+      "answer": "Pseudo-classes are keywords added to selectors that specify a special state of the selected element, like :hover, :focus, :first-child, etc."
+    },
+    {
+      "id": 29,
+      "topic": "CSS",
+      "question": "What is the z-index property in CSS?",
+      "answer": "The z-index property specifies the stacking order of positioned elements. Elements with a higher z-index value are positioned in front of elements with a lower value."
+    },
+    {
+      "id": 30,
+      "topic": "CSS",
+      "question": "What are CSS transitions?",
+      "answer": "CSS transitions allow you to change property values smoothly over a specified duration, creating animation effects. They're defined using the transition property."
+    }
+  ]
+}

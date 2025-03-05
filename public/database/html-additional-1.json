@@ -1,0 +1,154 @@
+{
+    "flashcards": [
+        {
+            "id": 76,
+            "topic": "HTML",
+            "question": "What is HTML?",
+            "answer": "HTML (HyperText Markup Language) is the standard markup language for creating web pages and web applications. It describes the structure of a web page with a series of elements that tell the browser how to display content."
+        },
+        {
+            "id": 77,
+            "topic": "HTML",
+            "question": "What is the purpose of the DOCTYPE declaration in HTML?",
+            "answer": "The DOCTYPE declaration tells the browser which version of HTML the page is written in, helping it to render the page correctly. In HTML5, it's simply <!DOCTYPE html>."
+        },
+        {
+            "id": 78,
+            "topic": "HTML",
+            "question": "What are semantic HTML elements?",
+            "answer": "Semantic HTML elements clearly describe their meaning in a human and machine-readable way. Examples include <header>, <footer>, <article>, and <section>, which provide context about their content beyond just presentation."
+        },
+        {
+            "id": 79,
+            "topic": "HTML",
+            "question": "What is the difference between <div> and <span>?",
+            "answer": "<div> is a block-level element that starts on a new line and takes up the full width available. <span> is an inline element that only takes up as much width as necessary and doesn't start on a new line."
+        },
+        {
+            "id": 80,
+            "topic": "HTML",
+            "question": "What are HTML attributes?",
+            "answer": "HTML attributes provide additional information about HTML elements. They are always specified in the start tag and usually come in name/value pairs like name='value'."
+        },
+        {
+            "id": 81,
+            "topic": "HTML",
+            "question": "What is the purpose of the alt attribute in the <img> tag?",
+            "answer": "The alt attribute provides alternative text for an image if it cannot be displayed. It's also used by screen readers to describe the image to visually impaired users, making the web more accessible."
+        },
+        {
+            "id": 82,
+            "topic": "HTML",
+            "question": "What is the difference between <ol> and <ul>?",
+            "answer": "<ol> creates an ordered list with numbered items, while <ul> creates an unordered list with bullet points. Both use <li> tags to define list items."
+        },
+        {
+            "id": 83,
+            "topic": "HTML",
+            "question": "What is the purpose of the <meta> tag?",
+            "answer": "The <meta> tag provides metadata about the HTML document. It can specify character set, page description, keywords, author, and viewport settings for responsive design."
+        },
+        {
+            "id": 84,
+            "topic": "HTML",
+            "question": "What is the difference between HTML and XHTML?",
+            "answer": "XHTML is a stricter and cleaner version of HTML that follows XML syntax rules. It requires properly nested tags, closing all elements, lowercase attribute names, quoted attribute values, and proper document structure."
+        },
+        {
+            "id": 85,
+            "topic": "HTML",
+            "question": "What are empty elements in HTML?",
+            "answer": "Empty elements are HTML elements that don't have any content and don't require a closing tag. Examples include <br>, <hr>, <img>, <input>, and <meta>."
+        },
+        {
+            "id": 86,
+            "topic": "HTML",
+            "question": "What is the purpose of the <iframe> tag?",
+            "answer": "The <iframe> (Inline Frame) tag is used to embed another document within the current HTML document, such as embedding videos, maps, or content from other websites."
+        },
+        {
+            "id": 87,
+            "topic": "HTML",
+            "question": "What are HTML forms?",
+            "answer": "HTML forms are used to collect user input. They contain form elements like text fields, checkboxes, radio buttons, submit buttons, etc., which allow users to enter data that is sent to a server for processing."
+        },
+        {
+            "id": 88,
+            "topic": "HTML",
+            "question": "What is the purpose of the <canvas> element?",
+            "answer": "The <canvas> element is used to draw graphics on a web page using JavaScript. It creates a rectangular area on the page where you can dynamically render graphics, animations, game graphics, or other visual images."
+        },
+        {
+            "id": 89,
+            "topic": "HTML",
+            "question": "What is the purpose of the HTML <table> element?",
+            "answer": "The <table> element is used to create tables in HTML documents, organizing data into rows and columns. Related tags include <tr> for rows, <th> for headers, and <td> for data cells."
+        },
+        {
+            "id": 90,
+            "topic": "HTML",
+            "question": "What is the difference between <script>, <script async>, and <script defer>?",
+            "answer": "<script> blocks HTML parsing during download and execution. <script async> allows HTML parsing during download but pauses it for execution. <script defer> allows HTML parsing during download and only executes after parsing is complete."
+        },
+        {
+            "id": 91,
+            "topic": "HTML",
+            "question": "What is HTML5 Local Storage?",
+            "answer": "HTML5 Local Storage allows web applications to store data locally within the user's browser. Unlike cookies, the storage limit is larger (at least 5MB) and information is never transferred to the server."
+        },
+        {
+            "id": 92,
+            "topic": "HTML",
+            "question": "What is the purpose of the <audio> and <video> elements in HTML5?",
+            "answer": "The <audio> and <video> elements are used to embed audio and video content in a web page. They provide native support for multimedia playback without requiring plugins like Flash."
+        },
+        {
+            "id": 93,
+            "topic": "HTML",
+            "question": "What are data attributes in HTML?",
+            "answer": "Data attributes allow you to store extra information on HTML elements without using non-standard attributes or properties. They start with 'data-' and can be accessed via JavaScript or styled with CSS."
+        },
+        {
+            "id": 94,
+            "topic": "HTML",
+            "question": "What is the difference between GET and POST methods in HTML forms?",
+            "answer": "GET submits form data in the URL, has size limitations, can be bookmarked, and shouldn't be used for sensitive data. POST submits data in the HTTP request body, has no size limits, can't be bookmarked, and is more secure for sensitive data."
+        },
+        {
+            "id": 95,
+            "topic": "HTML",
+            "question": "What is the purpose of the <label> tag in forms?",
+            "answer": "The <label> tag defines a label for form elements. It improves usability by making the label clickable to focus/activate the input and helps screen readers provide better accessibility."
+        },
+        {
+            "id": 96,
+            "topic": "HTML",
+            "question": "What are the new form input types in HTML5?",
+            "answer": "HTML5 introduced several new input types: date, time, email, url, search, number, range, tel, color, month, week, and datetime-local. These provide better semantics and built-in validation."
+        },
+        {
+            "id": 97,
+            "topic": "HTML",
+            "question": "What is the purpose of the HTML <article> element?",
+            "answer": "The <article> element represents a self-contained composition in a document that could stand independently, such as a newspaper article, blog post, or comment."
+        },
+        {
+            "id": 98,
+            "topic": "HTML",
+            "question": "What is the difference between <section> and <div>?",
+            "answer": "The <section> element represents a thematic grouping of content, typically with a heading. The <div> element is a generic container with no semantic meaning."
+        },
+        {
+            "id": 99,
+            "topic": "HTML",
+            "question": "What are HTML entities?",
+            "answer": "HTML entities are special characters that are difficult to type or reserved in HTML. They begin with an ampersand (&) and end with a semicolon (;)."
+        },
+        {
+            "id": 100,
+            "topic": "HTML",
+            "question": "What is the purpose of the HTML <nav> element?",
+            "answer": "The <nav> element represents a section containing navigation links, either within the current document or to other documents."
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "flashcards": [
+        {
+            "id": 1,
+            "topic": "JavaScript",
+            "question": "What is a closure in JavaScript?",
+            "answer": "A closure is a function that has access to its own scope, the outer function's variables, and global variables even after the outer function has finished execution."
+        },
+        {
+            "id": 2,
+            "topic": "JavaScript",
+            "question": "Explain the difference between '==' and '===' operators.",
+            "answer": "The '==' operator compares values and performs type coercion if needed. The '===' operator compares both values and types, without type coercion."
+        },
+        {
+            "id": 3,
+            "topic": "JavaScript",
+            "question": "What is hoisting in JavaScript?",
+            "answer": "Hoisting is JavaScript's default behavior of moving declarations to the top of their containing scope during compilation."
+        },
+        {
+            "id": 4,
+            "topic": "JavaScript",
+            "question": "What is the event loop in JavaScript?",
+            "answer": "The event loop is a mechanism that allows JavaScript to perform non-blocking operations despite being single-threaded. It handles the execution of callbacks and promises."
+        },
+        {
+            "id": 5,
+            "topic": "JavaScript",
+            "question": "What are JavaScript promises?",
+            "answer": "Promises are objects representing the eventual completion or failure of an asynchronous operation and its resulting value."
+        },
+        {
+            "id": 6,
+            "topic": "JavaScript",
+            "question": "What are arrow functions and how do they differ from regular functions?",
+            "answer": "Arrow functions are a concise syntax for writing functions. They don't have their own 'this' binding and can't be used as constructors."
+        },
+        {
+            "id": 7,
+            "topic": "JavaScript",
+            "question": "What is the difference between let, const, and var?",
+            "answer": "var is function-scoped and hoisted. let is block-scoped and not hoisted. const is block-scoped, not hoisted, and can't be reassigned after declaration."
+        },
+        {
+            "id": 8,
+            "topic": "JavaScript",
+            "question": "What is the purpose of the 'use strict' directive?",
+            "answer": "'use strict' enables strict mode, which catches common coding mistakes and 'unsafe' actions like assigning to undeclared variables."
+        },
+        {
+            "id": 9,
+            "topic": "JavaScript",
+            "question": "What is the difference between null and undefined?",
+            "answer": "undefined means a variable has been declared but not assigned a value. null is an assignment value representing no value or no object."
+        },
+        {
+            "id": 10,
+            "topic": "JavaScript",
+            "question": "What is the prototype chain in JavaScript?",
+            "answer": "The prototype chain is a mechanism JavaScript uses for inheritance. Objects have a prototype object which acts as a template object that it inherits methods and properties from."
+        }
+    ]
+}

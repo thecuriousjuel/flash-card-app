@@ -1,0 +1,34 @@
+{
+    "flashcards": [
+        {
+            "id": 101,
+            "topic": "Docker",
+            "question": "What is Docker?",
+            "answer": "Docker is an open-source platform that automates the deployment, scaling, and management of applications using containerization technology."
+        },
+        {
+            "id": 102,
+            "topic": "Docker",
+            "question": "What is a Docker container?",
+            "answer": "A Docker container is a lightweight, standalone, executable package that includes everything needed to run an application: code, runtime, system tools, libraries, and settings."
+        },
+        {
+            "id": 103,
+            "topic": "Docker",
+            "question": "What is a Docker image?",
+            "answer": "A Docker image is a read-only template with instructions for creating a Docker container. It contains the application code, libraries, dependencies, tools, and other files needed to run an application."
+        },
+        {
+            "id": 104,
+            "topic": "Docker",
+            "question": "What is a Dockerfile?",
+            "answer": "A Dockerfile is a text document containing a series of instructions and commands that are used to automatically build a Docker image. It specifies the base image, environment settings, files to add, ports to expose, and commands to run."
+        },
+        {
+            "id": 105,
+            "topic": "Docker",
+            "question": "What is Docker Hub?",
+            "answer": "Docker Hub is a cloud-based registry service for Docker images. It allows you to find, store, share, and collaborate on container images with your team or the Docker community."
+        }
+    ]
+}
