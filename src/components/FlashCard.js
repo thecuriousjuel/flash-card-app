@@ -178,29 +178,29 @@ const cardVariants = {
 
 const contentVariants = {
   hidden: { opacity: 0, y: 20 },
-  visible: { 
-    opacity: 1, 
+  visible: {
+    opacity: 1,
     y: 0,
-    transition: { 
-      delay: 0.1, 
-      duration: 0.4 
+    transition: {
+      delay: 0.1,
+      duration: 0.4
     }
   },
-  exit: { 
+  exit: {
     opacity: 0,
-    transition: { 
-      duration: 0.2 
+    transition: {
+      duration: 0.2
     }
   }
 };
 
 const answerRevealVariants = {
   hidden: { opacity: 0, y: 20, scale: 0.9 },
-  visible: { 
-    opacity: 1, 
+  visible: {
+    opacity: 1,
     y: 0,
     scale: 1,
-    transition: { 
+    transition: {
       type: "spring",
       stiffness: 300,
       damping: 15
@@ -215,13 +215,13 @@ const FlashCard = ({ card }) => {
   const handleFlip = () => {
     setIsFlipped(!isFlipped);
   };
-  
+
   const handleCardClick = () => {
     if (!isFlipped) {
       setIsFlipped(true);
     }
   };
-  
+
   const handleReset = () => {
     setIsFlipped(false);
   };
@@ -236,7 +236,7 @@ const FlashCard = ({ card }) => {
       >
         <CardFront
           backgroundColor={topicColor}
-          style={{ 
+          style={{
             transform: "rotateY(0deg)",
             zIndex: isFlipped ? 1 : 2
           }}
@@ -253,17 +253,17 @@ const FlashCard = ({ card }) => {
               >
                 <TopicLabel>{card.topic}</TopicLabel>
                 <Question>{card.question}</Question>
-                
+
                 {/* Removed reveal answer button */}
-                
+
                 <Instruction>Tap anywhere to flip card</Instruction>
               </motion.div>
             )}
           </AnimatePresence>
         </CardFront>
-        
+
         <CardBack
-          style={{ 
+          style={{
             transform: "rotateY(180deg)",
             zIndex: isFlipped ? 2 : 1
           }}
@@ -280,7 +280,7 @@ const FlashCard = ({ card }) => {
               >
                 <h3>Answer:</h3>
                 <Answer>{card.answer}</Answer>
-                <Button 
+                <Button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleReset}
@@ -293,7 +293,6 @@ const FlashCard = ({ card }) => {
                 >
                   Back to Question
                 </Button>
-                <Instruction>Use button to return to the question</Instruction>
               </motion.div>
             )}
           </AnimatePresence>
